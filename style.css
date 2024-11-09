@@ -1,0 +1,87 @@
+header{
+background-color: #CC8800;
+padding: 20px;
+}
+.headerLogo{
+    width: 70px;
+    padding: 10px;
+    -webkit-box-shadow: -5px 5px 15px 5px #000000; 
+box-shadow: -5px 5px 15px 5px #000000;
+
+}
+body{
+    background-color: #FFAA00;
+
+}
+.ulHeader{
+    list-style: none;
+    display:inline-block;
+    margin-bottom: 1px;
+
+}
+
+.liHeader{
+    display: inline-block;
+    padding-right: 170px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.liHeader a{
+    text-decoration: none;
+    color: white;
+}
+.liHeader a:hover{
+    color: black;
+    font-size: 25px;
+}
+
+.liHeader::after{
+    content: " | ";
+}
+
+#hero{
+    min-height: 100vh;
+    position: relative;
+}
+video{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.capa{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity:0.5;
+    mix-blend-mode: overlay;
+}
+.textoPromocion{
+    padding-top: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+.textoPromocion{
+    font-family: "Arial Black", Gadget, sans-serif;
+font-size: 18px;
+letter-spacing: -0.4px;
+word-spacing: 0.2px;
+color: #FFFFFF;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
